@@ -6,7 +6,7 @@
 # this script will use the 192.168.200.0/24 network as its search area
 #begin 
 echo "lab_4PingSWeeper"
-for i in $seq( $1 $2 )
+for i in $(seq $1 $2 )
     do
         echo "192.168.200.$i"
     done
