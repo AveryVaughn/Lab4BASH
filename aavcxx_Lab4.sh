@@ -8,6 +8,6 @@
 echo "lab_4PingSWeeper"
 for i in $(seq $1 $2 )
     do
-        echo "192.168.200.$i"
+        ping -c 4 192.168.200.$i
     done
     
