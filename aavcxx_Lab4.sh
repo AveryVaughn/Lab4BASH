@@ -9,5 +9,6 @@ echo "lab_4PingSWeeper"
 for i in $(seq $1 $2 )
     do
         ping -c 4 192.168.200.$i
+        echo "**********Next Host**********"
     done
     
